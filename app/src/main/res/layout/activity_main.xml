@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/IBeUVoh"
+    android:orientation="vertical"
     >
 
 
@@ -13,7 +14,7 @@
         android:id="@+id/soHot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
+        android:layout_gravity="center_horizontal"
         android:text="So Hot"
         android:textSize="40sp"
         android:textColor="#ffffff"
@@ -23,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/soHot"
-        android:gravity="center"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="0dp"
         android:text="sddsd"
         android:textColor="#ffffff"
