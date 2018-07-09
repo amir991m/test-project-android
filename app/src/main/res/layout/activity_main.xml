@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/IBeUVoh"
+    android:background="@drawable/aaa"
     android:orientation="vertical"
     >
 
@@ -29,6 +29,24 @@
         android:text="sddsd"
         android:textColor="#ffffff"
         android:textSize="40sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/soHot"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:text="30"
+        android:textColor="#ffffff"
+        android:textSize="55sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="search"/>
 
 </LinearLayout>
 
